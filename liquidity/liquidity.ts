@@ -27,39 +27,9 @@ export function createPoolKeys(
   accountData: LiquidityStateV4,
   minimalMarketLayoutV3: MinimalMarketLayoutV3,
 ): LiquidityPoolKeys {
-  return {
-    id,
-    baseMint: accountData.baseMint,
-    quoteMint: accountData.quoteMint,
-    lpMint: accountData.lpMint,
-    baseDecimals: accountData.baseDecimal.toNumber(),
-    quoteDecimals: accountData.quoteDecimal.toNumber(),
-    lpDecimals: 5,
-    version: 4,
-    programId: RAYDIUM_LIQUIDITY_PROGRAM_ID_V4,
-    authority: Liquidity.getAssociatedAuthority({
-      programId: RAYDIUM_LIQUIDITY_PROGRAM_ID_V4,
-    }).publicKey,
-    openOrders: accountData.openOrders,
-    targetOrders: accountData.targetOrders,
-    baseVault: accountData.baseVault,
-    quoteVault: accountData.quoteVault,
-    marketVersion: 3,
-    marketProgramId: accountData.marketProgramId,
-    marketId: accountData.marketId,
-    marketAuthority: Market.getAssociatedAuthority({
-      programId: accountData.marketProgramId,
-      marketId: accountData.marketId,
-    }).publicKey,
-    marketBaseVault: accountData.baseVault,
-    marketQuoteVault: accountData.quoteVault,
-    marketBids: minimalMarketLayoutV3.bids,
-    marketAsks: minimalMarketLayoutV3.asks,
-    marketEventQueue: minimalMarketLayoutV3.eventQueue,
-    withdrawQueue: accountData.withdrawQueue,
-    lpVault: accountData.lpVault,
-    lookupTableAccount: PublicKey.default,
-  };
+  
+  // Private code
+  
 }
 
 export async function getTokenAccounts(
