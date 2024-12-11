@@ -14,7 +14,7 @@ Interested in Getting the Full Sniper Tool?
 
 If you’re impressed by the demo and want to start sniping tokens like a pro, I can share the entire sniper with you. To get started, just reach out:
 
-# 👤 Author
+## 👤 Author
 
 ### Telegram: [Vladmeer](https://t.me/vladmeer67)   
 https://t.me/vladmeer67
