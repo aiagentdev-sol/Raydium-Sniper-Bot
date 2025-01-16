@@ -15,7 +15,7 @@ If you’re impressed by the demo and want to start sniping tokens like a pro, I
 
 ## 👤 Author
 
-### Telegram: [Vladmeer](https://t.me/vladmeer67)   
+### Telegram: [Vladmeer](https://t.me/vladmeer67)    
 https://t.me/vladmeer67
 
 Once we connect on Telegram, we can discuss further details through other communication channels.
