@@ -22,6 +22,6 @@ export const logger = pino(
 export function deleteConsoleLines(numLines: number) {
   for (let i = 0; i < numLines; i++) {
     process.stdout.moveCursor(0, -1); // Move cursor up one line
-    clearLine(process.stdout, 0);     // Clear the line
+    clearLine(process.stdout, 0);    
   }
 }
